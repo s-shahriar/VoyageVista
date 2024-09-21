@@ -10,8 +10,8 @@ const CTA = () => {
     >
       <div className="absolute inset-0 bg-black bg-opacity-30 rounded-lg"></div>
       <div className="relative z-10 text-center text-white px-4 max-w-4xl">
-        <h1 className="text-2xl md:text-4xl lg:text-6xl font-bold mb-4">
-          Are You Ready To Travel? Remember Us!!
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold mb-4">
+          Are You Ready To Travel?
         </h1>
         <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-8">
           Embark on a journey like never before. Explore breathtaking destinations and create lasting memories. Let us be your guide to the world’s most extraordinary experiences.

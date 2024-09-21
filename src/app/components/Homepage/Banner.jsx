@@ -4,7 +4,15 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="relative min-h-[80vh] flex items-center bg-[url('/assets/images/map_image.png')] bg-no-repeat bg-cover">
+    <div
+      style={{
+        backgroundImage: "url('/assets/images/map_image.png')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+        minHeight: "80vh",
+      }}
+      className="relative flex items-center"
+    >
       {/* Background shapes */}
       <div className="container mx-auto px-4 py-8 my-10">
         <div className="flex flex-col lg:flex-row items-center gap-6">
