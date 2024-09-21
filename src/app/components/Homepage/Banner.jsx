@@ -4,16 +4,16 @@ import Link from "next/link";
 
 const Banner = () => {
   return (
-    <div className="relative min-h-[80vh] flex items-center bg-[url('/assets/images/banner_map.png')] my-10 bg-no-repeat bg-cover">
+    <div className="relative min-h-[80vh] flex items-center bg-[url('/assets/images/map_image.png')] bg-no-repeat bg-cover">
       {/* Background shapes */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container mx-auto px-4 py-8 my-10">
         <div className="flex flex-col lg:flex-row items-center gap-6">
           {/* Left side content */}
           <div className="lg:w-1/2 mb-8 lg:mb-0">
-            <h2 className="text-sm font-semibold text-gray-600 mb-2 text-center lg:text-left">
+            <h2 className="text-sm font-semibold text-black mb-2 text-center lg:text-left">
               Relax & Enjoy the Vacation
             </h2>
-            <h1 className="text-4xl font-bold mb-4 text-center lg:text-left">
+            <h1 className="text-4xl font-bold mb-4 text-center lg:text-left text-black">
               Choose <span className="text-blue-500">Voyage Vista</span> <br />{" "}
               To Book Your Hotel
             </h1>

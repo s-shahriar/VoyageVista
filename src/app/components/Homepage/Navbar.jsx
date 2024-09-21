@@ -72,7 +72,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-4">
           {/* Logo */}
           <div className="text-2xl font-bold">
-            <Link href={'/login'}>Voyage Vista</Link>
+            <Link href={'/'}>Voyage Vista</Link>
           </div>
 
           {/* Desktop menu */}
