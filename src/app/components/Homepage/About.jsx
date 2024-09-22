@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -93,7 +92,7 @@ const About = () => {
         </Link>
       </div>
       <div className="w-full md:w-1/2">
-        <Image
+        <img
           width={500}
           height={400}
           src="/assets/images/about-image.png"

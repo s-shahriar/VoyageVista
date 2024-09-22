@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+
+import Contact from "./components/Contact";
 import About from "./components/Homepage/About";
 import Banner from "./components/Homepage/Banner";
 import Blog from "./components/Homepage/Blog";
@@ -18,6 +21,7 @@ export default function Home() {
       <Testimonials />
       <CTA />
       <Blog />
+      <Contact/>
     </div>
   );
 }
