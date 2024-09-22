@@ -40,7 +40,7 @@ const Banner = () => {
           <div className="lg:w-1/2 relative">
             <Link href="/login">
               <Image
-                src="/assets/images/Banner.png"
+                src="/assets/images/banner.png"
                 width={500}
                 height={500}
                 alt="Travel collage"
