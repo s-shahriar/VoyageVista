@@ -95,7 +95,7 @@ const About = () => {
         <img
           width={500}
           height={400}
-          src="/assets/images/about-image.png"
+          src={require("/assets/images/about-image.png")}
           alt="Travel collage"
           className="rounded-lg object-cover"
           style={{ width: "100%", height: "auto" }}
