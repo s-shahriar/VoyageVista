@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 
@@ -92,10 +93,10 @@ const About = () => {
         </Link>
       </div>
       <div className="w-full md:w-1/2">
-        <img
+        <Image
           width={500}
           height={400}
-          src={require("/assets/images/about-image.png")}
+          src="assets/images/About-image.png"
           alt="Travel collage"
           className="rounded-lg object-cover"
           style={{ width: "100%", height: "auto" }}

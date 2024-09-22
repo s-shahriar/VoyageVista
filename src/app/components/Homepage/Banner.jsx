@@ -1,4 +1,5 @@
 import { CalendarDays, MapPin, Search } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
 
 const Banner = () => {
@@ -38,8 +39,8 @@ const Banner = () => {
           {/* Right side image with Link */}
           <div className="lg:w-1/2 relative">
             <Link href="/login">
-              <img
-                src="/assets/images/banner.png"
+              <Image
+                src="/assets/images/Banner.png"
                 width={500}
                 height={500}
                 alt="Travel collage"
