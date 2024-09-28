@@ -1,9 +1,9 @@
 export const dynamic = "force-dynamic";
 
-import Contact from "./components/Contact";
 import About from "./components/Homepage/About";
 import Banner from "./components/Homepage/Banner";
 import Blog from "./components/Homepage/Blog";
+import Contact from "./components/Homepage/Contact";
 import CTA from "./components/Homepage/CTA";
 import Events from "./components/Homepage/Events";
 import Room from "./components/Homepage/Room";
@@ -21,7 +21,7 @@ export default function Home() {
       <Testimonials />
       <CTA />
       <Blog />
-      <Contact/>
+      <Contact />
     </div>
   );
 }
